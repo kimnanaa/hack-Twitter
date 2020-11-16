@@ -109,7 +109,7 @@ def main():
                 username_file = open(f, 'r')
                 username_list = username_file.read()
                 for username in username_list.splitlines():
-                    check_username(username)
+                    check_username(Nkechibalogun)
             except Exception as e:
                 print("Something wrong, "+str(e))
             else:
@@ -127,9 +127,9 @@ def main():
                 email_file.close()
         
         elif option == '5':
-            username = input(" username: ")
+            username = input(" Nkechibalogun: ")
             
-            webbrowser.open('https://twitter.com/search?f=images&vertical=default&q='+username+'')
+            webbrowser.open('https://twitter.com/Nkechibalogun?f=images&vertical=default&q='+username+'')
         
         elif option == '7':
             webbrowser.open('https://www.snapchat.com/add/flaah999')
